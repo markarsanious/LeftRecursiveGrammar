@@ -1,0 +1,4 @@
+S : S S' | ( S ) | a
+A : A A' | b d | epsilon
+S' : + S | S | *
+A' : c | a d
